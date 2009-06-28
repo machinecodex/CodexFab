@@ -359,7 +359,7 @@
 										<key>_historyCapacity</key>
 										<integer>0</integer>
 										<key>bookmark</key>
-										<string>FA396A7A0FF740A8004A4F82</string>
+										<string>FA396AAB0FF74A1E004A4F82</string>
 										<key>history</key>
 										<array>
 											<string>FAA0FB990FE4F7A900F179E4</string>
@@ -381,7 +381,7 @@
 											<string>FA2443A30FF73623009C337B</string>
 											<string>FA2443A40FF73623009C337B</string>
 											<string>FA2443A50FF73623009C337B</string>
-											<string>FA396A710FF73F60004A4F82</string>
+											<string>FA396A960FF74662004A4F82</string>
 										</array>
 										<key>prevStack</key>
 										<array>
@@ -461,9 +461,9 @@
 			</array>
 			<key>TableOfContents</key>
 			<array>
-				<string>FA396A7B0FF740A8004A4F82</string>
+				<string>FA396AAC0FF74A1E004A4F82</string>
 				<string>1CE0B1FE06471DED0097A5F4</string>
-				<string>FA396A7C0FF740A8004A4F82</string>
+				<string>FA396AAD0FF74A1E004A4F82</string>
 				<string>1CE0B20306471E060097A5F4</string>
 				<string>1CE0B20506471E060097A5F4</string>
 			</array>
@@ -582,7 +582,7 @@
 	<key>StatusbarIsVisible</key>
 	<true/>
 	<key>TimeStamp</key>
-	<real>267862184.93333101</real>
+	<real>267864595.48585501</real>
 	<key>ToolbarDisplayMode</key>
 	<integer>1</integer>
 	<key>ToolbarIsVisible</key>
@@ -597,9 +597,6 @@
 	<integer>5</integer>
 	<key>WindowOrderList</key>
 	<array>
-		<string>1C78EAAD065D492600B07095</string>
-		<string>1CD10A99069EF8BA00B06720</string>
-		<string>FA060E220FE2750D008E32A4</string>
 		<string>/Users/alex/Desktop/XCode Projects/CodexFab/CodexFab/CodexFab.xcodeproj</string>
 	</array>
 	<key>WindowString</key>
