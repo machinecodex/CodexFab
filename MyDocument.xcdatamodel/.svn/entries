@@ -1,0 +1,54 @@
+8
+
+dir
+23
+svn+ssh://alex@powermax.dyndns.org/Users/Shared/svnrepo/CodexFab/MyDocument.xcdatamodel
+svn+ssh://alex@powermax.dyndns.org/Users/Shared/svnrepo/CodexFab
+
+
+
+2009-06-16T13:08:33.496641Z
+18
+alex
+
+
+svn:special svn:externals svn:needs-lock
+
+
+
+
+
+
+
+
+
+
+
+aef6bfd2-bccf-4614-8c5d-c1df63c20d6a
+
+elements
+file
+
+
+
+
+2009-06-19T12:47:27.000000Z
+bfa7bdfd5654f6b597bd73924b801848
+2009-06-16T13:08:33.496641Z
+18
+alex
+has-props
+
+layout
+file
+
+
+
+
+2009-06-19T12:47:27.000000Z
+8cba0ebdfc9912be6bac304c17355584
+2009-06-15T13:13:01.105428Z
+15
+alex
+has-props
+

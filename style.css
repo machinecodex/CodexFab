@@ -1,0 +1,10 @@
+body {
+	background-color: #ffd;
+	text-align: center;
+	font: 11pt/16pt "Lucida Grande", Lucida, Verdana, sans-serif;
+}
+
+a:link {
+	text-decoration: none;
+	color: #009acf;
+}
