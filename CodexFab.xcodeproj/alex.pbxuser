@@ -482,7 +482,7 @@
 		fRef = FA2443A10FF72A05009C337B /* ReadMe.txt */;
 		name = "ReadMe.txt: 16";
 		rLen = 0;
-		rLoc = 673;
+		rLoc = 769;
 		rType = 0;
 		vrLen = 1602;
 		vrLoc = 0;
@@ -492,7 +492,7 @@
 		fRef = FA2443A10FF72A05009C337B /* ReadMe.txt */;
 		name = "ReadMe.txt: 27";
 		rLen = 0;
-		rLoc = 1369;
+		rLoc = 1534;
 		rType = 0;
 		vrLen = 1698;
 		vrLoc = 1;

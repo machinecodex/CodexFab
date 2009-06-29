@@ -56,7 +56,7 @@
 		FA060E020FE27484008E32A4 /* libcrypto.0.9.7.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libcrypto.0.9.7.dylib; path = /usr/lib/libcrypto.0.9.7.dylib; sourceTree = "<absolute>"; };
 		FA1BF6BE0FE372D400D33607 /* XMDSAKeyGenerator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XMDSAKeyGenerator.h; sourceTree = "<group>"; };
 		FA1BF6BF0FE372D400D33607 /* XMDSAKeyGenerator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XMDSAKeyGenerator.m; sourceTree = "<group>"; };
-		FA2443A10FF72A05009C337B /* ReadMe.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = ReadMe.txt; path = CocoaFob/objc/ReadMe.txt; sourceTree = "<group>"; };
+		FA2443A10FF72A05009C337B /* ReadMe.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = ReadMe.txt; path = CocoaFob/objc/ReadMe.txt; sourceTree = "<group>"; wrapsLines = 0; };
 		FAA0010D0FE7CDD100F179E4 /* style.css */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.css; path = style.css; sourceTree = "<group>"; };
 		FAA002CB0FE8D13400F179E4 /* CFobLicGenerator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CFobLicGenerator.h; sourceTree = "<group>"; };
 		FAA002CC0FE8D13400F179E4 /* CFobLicGenerator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CFobLicGenerator.m; sourceTree = "<group>"; };
