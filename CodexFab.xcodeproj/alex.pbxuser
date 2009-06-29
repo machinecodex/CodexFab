@@ -80,8 +80,8 @@
 					PBXFileDataSource_Warnings_ColumnID,
 				);
 			};
-			PBXPerProjectTemplateStateSaveDate = 267864595;
-			PBXWorkspaceStateSaveDate = 267864595;
+			PBXPerProjectTemplateStateSaveDate = 267962813;
+			PBXWorkspaceStateSaveDate = 267962813;
 		};
 		perUserProjectItems = {
 			FA060E580FE279C0008E32A4 = FA060E580FE279C0008E32A4 /* PBXTextBookmark */;
@@ -93,10 +93,8 @@
 			FA2443A30FF73623009C337B = FA2443A30FF73623009C337B /* PBXTextBookmark */;
 			FA2443A40FF73623009C337B = FA2443A40FF73623009C337B /* PBXTextBookmark */;
 			FA2443A50FF73623009C337B = FA2443A50FF73623009C337B /* XDModelBookmark */;
-			FA396A840FF74629004A4F82 = FA396A840FF74629004A4F82 /* PBXTextBookmark */;
 			FA396A960FF74662004A4F82 = FA396A960FF74662004A4F82 /* PBXTextBookmark */;
-			FA396AAB0FF74A1E004A4F82 /* PBXTextBookmark */ = FA396AAB0FF74A1E004A4F82 /* PBXTextBookmark */;
-			FA396AAE0FF74EB7004A4F82 /* PBXTextBookmark */ = FA396AAE0FF74EB7004A4F82 /* PBXTextBookmark */;
+			FA396AAF0FF759E1004A4F82 = FA396AAF0FF759E1004A4F82 /* PBXTextBookmark */;
 			FAA000090FE7C10900F179E4 = FAA000090FE7C10900F179E4 /* PBXBookmark */;
 			FAA0000A0FE7C10900F179E4 = FAA0000A0FE7C10900F179E4 /* PBXBookmark */;
 			FAA0000B0FE7C10900F179E4 = FAA0000B0FE7C10900F179E4 /* PBXTextBookmark */;
@@ -479,16 +477,6 @@
 		fRef = 775BDEF0067A8BF0009058FE /* MyDocument.xcdatamodel */;
 		fallbackIsa = PBXBookmark;
 	};
-	FA396A840FF74629004A4F82 /* PBXTextBookmark */ = {
-		isa = PBXTextBookmark;
-		fRef = FA2443A10FF72A05009C337B /* ReadMe.txt */;
-		name = "ReadMe.txt: 16";
-		rLen = 0;
-		rLoc = 673;
-		rType = 0;
-		vrLen = 1602;
-		vrLoc = 0;
-	};
 	FA396A960FF74662004A4F82 /* PBXTextBookmark */ = {
 		isa = PBXTextBookmark;
 		fRef = FA2443A10FF72A05009C337B /* ReadMe.txt */;
@@ -499,17 +487,7 @@
 		vrLen = 1602;
 		vrLoc = 0;
 	};
-	FA396AAB0FF74A1E004A4F82 /* PBXTextBookmark */ = {
-		isa = PBXTextBookmark;
-		fRef = FA2443A10FF72A05009C337B /* ReadMe.txt */;
-		name = "ReadMe.txt: 10";
-		rLen = 0;
-		rLoc = 278;
-		rType = 0;
-		vrLen = 1602;
-		vrLoc = 0;
-	};
-	FA396AAE0FF74EB7004A4F82 /* PBXTextBookmark */ = {
+	FA396AAF0FF759E1004A4F82 /* PBXTextBookmark */ = {
 		isa = PBXTextBookmark;
 		fRef = FA2443A10FF72A05009C337B /* ReadMe.txt */;
 		name = "ReadMe.txt: 27";
