@@ -1,18 +1,18 @@
-8
+10
 
 dir
-23
+33
 svn+ssh://alex@powermax.dyndns.org/Users/Shared/svnrepo/CodexFab/CodexFab.xcodeproj
 svn+ssh://alex@powermax.dyndns.org/Users/Shared/svnrepo/CodexFab
 
 
 
-2009-06-19T04:21:18.365095Z
-23
-alex
+2009-07-10T12:55:28.188580Z
+33
+mantis
 
 
-svn:special svn:externals svn:needs-lock
+
 
 
 
@@ -28,15 +28,37 @@ aef6bfd2-bccf-4614-8c5d-c1df63c20d6a
 
 alex.pbxuser
 file
-24
+34
 
 
 
-2009-06-28T07:09:43.000000Z
-9627af4d4dc4af1f75f81373f90842c6
-2009-06-28T07:50:10.338893Z
-24
-alex
+2009-07-26T06:17:35.000000Z
+8db48db20d68c223dccc79d18752bd4d
+2009-07-26T06:19:07.088723Z
+34
+security
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+27349
 
 mantis.pbxuser
 file
@@ -44,23 +66,45 @@ file
 
 
 
-2009-06-19T12:47:26.000000Z
-d2f84c7eda04ab99a841d439e4176ebe
-2009-06-17T04:59:19.473426Z
-19
+2009-07-10T12:56:00.000000Z
+e5f1a3b2efc2dfd5bba8f6682188bb35
+2009-07-10T12:55:28.188580Z
+33
 mantis
 
 alex.mode1v3
 file
-24
+34
 
 
 
-2009-06-28T07:09:43.000000Z
-5c0b1625484e2fc0ac1569b31970a217
-2009-06-28T07:50:10.338893Z
-24
-alex
+2009-07-26T06:17:35.000000Z
+ffcbcd01fe354e7a34e0efa0fde98d3f
+2009-07-26T06:19:07.088723Z
+34
+security
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+43208
 
 mantis.mode1v3
 file
@@ -68,21 +112,43 @@ file
 
 
 
-2009-06-19T12:47:26.000000Z
-5b3433bcc0d98b48eaf2fda70cfc590c
-2009-06-17T04:59:19.473426Z
-19
+2009-07-10T12:56:00.000000Z
+9435252f8dfc09e3cb21aaf3579e3a90
+2009-07-10T12:55:28.188580Z
+33
 mantis
 
 project.pbxproj
 file
-24
 
 
 
-2009-06-28T07:57:21.000000Z
-48961d3ceff69868f4b2ad9c249c7bd7
-2009-06-28T07:50:10.338893Z
-24
-alex
+
+2009-07-26T06:17:35.000000Z
+fb59633aaae10e59b59cb64b18b94e30
+2009-07-09T16:50:01.652183Z
+26
+mantis
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+24295
 

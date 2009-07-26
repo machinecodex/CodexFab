@@ -29,15 +29,37 @@
 {
 	self = [super init];
 	if (self != nil) {
-		
+
 		self.workingDirectory = path;
 	}
 	return self;
 }
 
+- (NSString *)uuid
+{
+	CFUUIDRef uuidRef = CFUUIDCreate(NULL);
+	CFStringRef uuidStringRef = CFUUIDCreateString(NULL, uuidRef);
+	CFRelease(uuidRef);
+	NSString *uuid = [NSString stringWithString:(NSString *)  
+					  uuidStringRef];
+	CFRelease(uuidStringRef);
+	return uuid;
+}
+
 - (id) init {
 	
-	return [self initWithWorkingDirectory:@"/tmp/"];
+	// an alternative to the NSTemporaryDirectory
+	NSString *path = nil;
+	NSArray *paths = NSSearchPathForDirectoriesInDomains(NSCachesDirectory, NSUserDomainMask, YES);
+	if ([paths count])
+	{
+		NSString *bundleName =
+		[[[NSBundle mainBundle] infoDictionary] objectForKey:@"CFBundleIdentifier"];
+		NSString * guid = [self uuid];
+		path = [[[paths objectAtIndex:0] stringByAppendingPathComponent:bundleName] stringByAppendingPathComponent:guid];
+	}
+	
+	return [self initWithWorkingDirectory:path];
 }
 
 
@@ -58,6 +80,7 @@
 	[task setStandardOutput:outPipe];
 	[task setLaunchPath:launchPath];
 	[task setArguments:arguments];
+	NSLog(@"%@", task);
 	
 	[task launch];
 	[task waitUntilExit];
@@ -74,7 +97,7 @@
 	
 	//	openssl dsaparam -out dsaparam.pem 512
 		
-	NSString * outFilePath = @"dsaparam.pem";
+	NSString * outFilePath = [self.workingDirectory stringByAppendingPathComponent:@"dsaparam.pem"];
 
 	NSArray * arguments = [NSArray arrayWithObjects:
 						   
@@ -95,14 +118,15 @@
 	
 	//     openssl gendsa -out privkey.pem dsaparam.pem
 		
-	NSString * outFilePath = @"privkey.pem";
+	NSString * inFilePath = [self.workingDirectory stringByAppendingPathComponent:@"dsaparam.pem"];
+	NSString * outFilePath = [self.workingDirectory stringByAppendingPathComponent:@"privkey.pem"];
 	
 	NSArray * arguments = [NSArray arrayWithObjects:
 						   
 						   @"gendsa",
 						   @"-out",
 						   outFilePath,
-						   @"dsaparam.pem",
+						   inFilePath,
 						   
 						   nil ];
 	
@@ -116,13 +140,14 @@
 	
 	//	openssl dsa -in privkey.pem -pubout -out pubkey.pem
 	
-	NSString * outFilePath = @"pubkey.pem";
+	NSString * inFilePath = [self.workingDirectory stringByAppendingPathComponent:@"privkey.pem"];
+	NSString * outFilePath = [self.workingDirectory stringByAppendingPathComponent:@"pubkey.pem"];
 	
 	NSArray * arguments = [NSArray arrayWithObjects:
 						   
 						   @"dsa",
 						   @"-in",
-						   @"privkey.pem",
+						   inFilePath,
 						   @"-pubout", 
 						   @"-out",
 						   outFilePath,

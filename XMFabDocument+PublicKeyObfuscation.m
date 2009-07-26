@@ -14,6 +14,8 @@
 
 #import "XMFabDocument.h"
 
+//TODO: Make sure that \n newline characters are not broken across lines.trin
+
 
 @implementation XMFabDocument (PublicKeyObfuscation) 
 

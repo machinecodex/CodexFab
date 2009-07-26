@@ -21,11 +21,14 @@
 	NSManagedObjectModel * managedObjectModel;
 	
 	IBOutlet WebView * webView;
+	IBOutlet NSPanel * obfuscatorPanel;
 	
 	NSString * userName;
 	NSString * code;
 	NSString * validationResult;
 	NSString * licenseURL;
+	
+	NSString * obfuscatedPublicKey;
 	
 	BOOL canGenerateDSA;
 	BOOL canGenerateReg;
@@ -39,6 +42,8 @@
 @property (nonatomic, retain) NSString *validationResult;
 @property (nonatomic, retain) NSString *code;
 @property (nonatomic, retain) NSString *userName;
+
+@property (nonatomic, retain) NSString *obfuscatedPublicKey;
 
 - (NSManagedObjectModel *)managedObjectModel;
 
@@ -59,6 +64,15 @@
 
 @end
 
+
+@interface XMFabDocument (PublicKeyObfuscation) 
+
+- (IBAction) showObfusactorPanel:(id)sender;
+- (IBAction) closeObfusactorPanel:(id)sender;
+- (void)generateObfuscatedCode:(id)sender;
+- (NSString *)obfuscatedCocoaCodeForPublicKey:(NSString*)publicKeyString;
+
+@end
 
 
 

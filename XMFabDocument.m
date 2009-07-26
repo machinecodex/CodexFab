@@ -50,6 +50,8 @@
 @synthesize code;
 @synthesize userName;
 
+@synthesize obfuscatedPublicKey;
+
 #pragma mark -
 #pragma mark Initialisation & dealloc
 
@@ -154,12 +156,17 @@
 				
 	NSString * params = [keyGen DSAParameters];
 	[pem setValue:params forKey:@"parameters"];
+	NSLog(@"parameters %@", params);
 		
 	NSString * privKey = [keyGen unencryptedDSAPrivateKeyFromParameters:params];
 	[pem setValue:privKey forKey:@"privateKey"];
+	NSLog(@"privKey %@", privKey);
 	
 	NSString * pubKey = [keyGen DSAPublicKeyFromPrivateKey:privKey];
 	[pem setValue:pubKey forKey:@"publicKey"];
+	NSLog(@"pubKey %@", pubKey);
+	
+	NSLog(@"PEM %@", pem);
 }
 
 - (IBAction) generateRegCode:(id)sender {

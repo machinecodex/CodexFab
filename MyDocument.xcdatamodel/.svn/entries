@@ -1,7 +1,7 @@
-8
+10
 
 dir
-23
+33
 svn+ssh://alex@powermax.dyndns.org/Users/Shared/svnrepo/CodexFab/MyDocument.xcdatamodel
 svn+ssh://alex@powermax.dyndns.org/Users/Shared/svnrepo/CodexFab
 
@@ -12,7 +12,7 @@ svn+ssh://alex@powermax.dyndns.org/Users/Shared/svnrepo/CodexFab
 alex
 
 
-svn:special svn:externals svn:needs-lock
+
 
 
 
