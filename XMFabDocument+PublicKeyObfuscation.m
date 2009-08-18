@@ -64,7 +64,7 @@
 	//remove first & last lines
 	NSArray *lines = [publicKeyString componentsSeparatedByString:@"\n"];
 	int i, cnt = [lines count];
-	for (i=1; i < cnt -1; i++) {
+	for (i=1; i < cnt -2; i++) {
 		[tempKey appendString:[NSString stringWithFormat:@"%@\n",[lines objectAtIndex:i]]];
 	}
 	
@@ -91,6 +91,13 @@
 		int tlength = ( rand() % maxStringLength ) + minStringLength;
 		if(firstIndex + tlength > length) tlength = length - firstIndex;
 		NSString *line = [tempKey substringWithRange:NSMakeRange(firstIndex, tlength)];
+
+		if ([line hasSuffix:@"\\"]) { //Make sure our line doesn't end in a backslash as this may split a newline token
+			
+			tlength += 2;
+			line = [tempKey substringWithRange:NSMakeRange(firstIndex, tlength)];
+		}
+			
 		[pkb64Fragmented appendString:[NSString stringWithFormat:@"%@%@%@",pkb64FragOpen,line,pkb64FragClose]];
 		firstIndex += tlength;
 	}
